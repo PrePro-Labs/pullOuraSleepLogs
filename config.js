@@ -1,11 +1,5 @@
 import mysql from "mysql2/promise";
 
-// prepro userId
-export const userId = process.env.PREPRO_USER_ID;
-
-// oura api token
-export const ouraApiKey = process.env.OURA_API_KEY;
-
 // mysql config
 const dbConfig = {
   connectionLimit: 5,
